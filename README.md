@@ -1,2 +1,0 @@
-# MasonryLayout
-MasonryLayout like Pinterest
