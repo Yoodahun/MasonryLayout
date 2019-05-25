@@ -1,0 +1,31 @@
+#columns {
+  column-width:350px;
+  /* border:5px solid green; */
+  column-gap: 15px;
+  /* 컬럼간의 갭 */
+
+}
+#columns figure {
+  display: inline-block;
+  /* image와text가 분리되는 현상이 없어짐. */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0;
+  /* 어느 공간의 바깥간격 */
+  margin-bottom: 15px; /* 행과 행사이에 간격을 띄워줌. */
+  padding: 10px;
+  /* 어느 공간의 안쪽 간격 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+  /* 그림자 효과 */
+
+}
+
+#columns figure img {
+  width: 100%;
+}
+
+#columns figure figcaption {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  /* 어느 공간의 내부 간격 */
+  margin-top: 11px;
+}
